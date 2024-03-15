@@ -1,2 +1,2 @@
-# AquaTech2024
+# AquaTech
 Projeto de monitoramento de aquário
