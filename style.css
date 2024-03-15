@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    background-color: black;
+}
+
+/* guarda o titulo e lista */
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+/* linha abaixo do navbar */
+.header {
+    border-bottom: 3px solid #32B9CD;
+}
+
+.titulo {
+    color: #32B9CD;
+    font-weight: 500;  /* define a grossura da letra */
+}
+
+.navbar {
+    width: 400px;
+    display: flex;
+    color: #E3B062;
+    justify-content: space-between;
+    list-style: none;  /* define que a lista não terá estilo (bolinhas) */
+    align-items: center;
+}
+
+.header .container {
+    justify-content: space-between;
+}
